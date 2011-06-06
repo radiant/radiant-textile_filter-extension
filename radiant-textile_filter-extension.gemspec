@@ -13,8 +13,7 @@ Gem::Specification.new do |s|
   s.description = %q{Allows you to compose page parts or snippets using the Textile text filter.}
 
   ignores = if File.exist?(".gitignore")
-    File.read(".gitignore").split("
-").inject([]) {|a,p| a + Dir[p] }
+    File.read(".gitignore").split("\n").inject([]) {|a,p| a + Dir[p] }
   else
     []
   end
