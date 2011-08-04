@@ -1,7 +1,7 @@
 require "RedCloth"
 
 class TextileFilterExtension < Radiant::Extension
-  version "1.0.0"
+  version "1.0.1"
   description "Allows you to compose page parts or snippets using the Textile text filter."
   url "http://textism.com/tools/textile/"
 
