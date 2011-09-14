@@ -22,9 +22,4 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_dependency "RedCloth", "~> 4.2.0"
-
-  s.post_install_message = %{
-  Add this to your radiant project with:
-    config.gem "radiant-textile_filter-extension", :version => "~> #{RadiantTextileFilterExtension::VERSION}"
-  }
 end
